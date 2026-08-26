@@ -74,6 +74,7 @@ function App() {
         <header className="header">
           <div>
             <h1>Leaderboard</h1>
+            <p className="subtitle">Top 100 of 1,000,000 players</p>
           </div>
           <span className={`badge ${status}`}>{status}</span>
         </header>
